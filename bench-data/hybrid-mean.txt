@@ -1,0 +1,14 @@
+goos: windows
+goarch: amd64
+pkg: hybrid-encrypt/pkg/hybrid
+cpu: 12th Gen Intel(R) Core(TM) i5-12400F
+Benchmark/mess_length=6-12         	    1394	    851372 ns/op	    4056 B/op	      43 allocs/op
+Benchmark/mess_length=8-12         	    1428	    851272 ns/op	    4056 B/op	      43 allocs/op
+Benchmark/mess_length=10-12         	1419	    848672 ns/op	    4056 B/op	      43 allocs/op
+Benchmark/mess_length=12-12         	1417	    848172 ns/op	    4056 B/op	      43 allocs/op
+Benchmark/mess_length=16-12         	1462	    836372 ns/op	    4056 B/op	      43 allocs/op
+PASS
+ok  	hybrid-encrypt/pkg/hybrid	651.433s
+1 186 812 568
+1 256 956 818
+1 144 551 033

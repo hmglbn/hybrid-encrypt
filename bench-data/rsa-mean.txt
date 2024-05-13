@@ -1,0 +1,11 @@
+goos: windows
+goarch: amd64
+pkg: hybrid-encrypt/pkg/rsa
+cpu: 12th Gen Intel(R) Core(TM) i5-12400F
+Benchmark/mess_length=6-12         	 1482	    848149 ns/op	    2208 B/op	      23 allocs/op
+Benchmark/mess_length=8-12         	 1435	    848249 ns/op	    2208 B/op	      23 allocs/op 
+Benchmark/mess_length=10-12          1453	    853149 ns/op	    2208 B/op	      23 allocs/op
+Benchmark/mess_length=12-12          1428	    848949 ns/op	    2208 B/op	      23 allocs/op
+Benchmark/mess_length=16-12          1428	    850649 ns/op	    2208 B/op	      23 allocs/op
+PASS
+ok  	hybrid-encrypt/pkg/rsa	64.730s
